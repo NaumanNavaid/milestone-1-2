@@ -1,0 +1,138 @@
+body{
+background-color: lightskyblue;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 100px;
+background-color: #ffff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+.container .leftside{
+position: relative;
+background-color: #003147;
+padding: 40px;
+
+}
+.profileText{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom:2px solid rgba(255,255,255,0.2);
+}
+.profileText .image{
+width: 250px;
+height: 190px;
+position: relative;
+border-radius: 50%;
+overflow: hidden;
+object-fit: cover;
+
+}
+.profileText h2{
+color: white;
+text-transform: uppercase;
+font-size: 25px;
+font-weight: 600;
+line-height: normal;
+}
+.profileText h2 span{
+color: white;
+font-size: 18px;
+font-weight: 300;
+
+}
+.contactinfo{
+padding-top: 40px
+;
+}
+.title{
+color: white;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+.contactinfo ul{
+position: relative;
+}
+.contactinfo ul li{
+position: relative;
+list-style: none;
+margin: 20px 0;
+cursor: pointer;
+
+}
+.contactinfo .text{
+color: white;
+font-size: 16px;
+font-weight: 200;
+}
+.contactinfo.education li{
+
+   margin-bottom: 15px;
+}
+.contactinfo.education li h5{
+color: #03a9f4;
+font-size: 15px;
+}
+.contactinfo.education h4{
+color: white;
+font-weight: 400;
+
+}
+
+
+.contactinfo.languages h4{
+font-weight: 300;
+
+
+}
+.container .rightside{
+    position: relative;
+    background-color: white;
+    padding: 40px;   
+}
+.about{
+margin-bottom: 50px;
+}
+.title2{
+color: #003147;
+font-size: 25px;
+}
+p{
+    color: #333;
+}
+.about.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company{
+min-width: 150px;
+}
+.about .box .year_company h5{
+text-transform: uppercase;
+color: #848c90;
+font-weight: 600;
+}
+.about .box .text h4{
+text-transform: uppercase;
+font-size: 16px;
+}
+.about .skills{
+display: grid;
+width: 100%;
+position: relative;
+grid-template-columns: 150px 1fr;
+justify-content: center;
+align-items: center;
+}
